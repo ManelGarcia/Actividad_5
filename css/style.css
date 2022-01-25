@@ -1,0 +1,261 @@
+* {
+    font-family: 'Bellota', cursive;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    background-color: #FCA331;
+}
+
+hr {
+    margin: 0;
+}
+
+#titulo {
+    text-align: center;
+}
+
+
+/* Redimensión de fuente utilizando rem */
+
+p {
+    font-size: 1rem;
+    margin: 3% 0%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.6rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+    margin: 3% 0%;
+}
+
+h5 {
+    font-size: 1.15rem;
+    margin: 3% 0%;
+}
+
+h6 {
+    font-size: 1.05rem;
+    margin: 3% 0%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Diseño de columnas */
+
+.column-1 {
+    width: 100%;
+    float: left;
+}
+
+.column-2 {
+    width: 50%;
+    float: left;
+}
+
+.middle {
+    margin-left: 25%;
+    background-color: #FFFFFF;
+}
+
+#img-messi {
+    background-image: url(../img/mesi.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-pajaro {
+    background-image: url(../img/paloma.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.column-3 {
+    width: 33.33%;
+    float: left;
+}
+
+.column-nav {
+    width: 25%;
+    float: left;
+    position: fixed;
+}
+
+#noticias {
+    width: 20%;
+    float: right;
+    height: max-content;
+    background-color: #14213D;
+    color: #FFFFFF;
+    margin-right: 2.5%;
+    margin-top: 2.5%;
+}
+
+#noticias>a {
+    color: white;
+}
+
+
+/* clases web */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* header {
+    height: 100vh;
+    background-image: url("../img/brandon-burridge-4o7f9_Z73a4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+} */
+
+img {
+    height: 100%;
+}
+
+#img-1 {
+    background-image: url(../img/Barcelona.jpg);
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-2 {
+    background-image: url(../img/Guell.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-3 {
+    background-image: url("../img/Goth.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-4 {
+    height: 50vh;
+    background-image: url("../img/Canaletes.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#img-5 {
+    background-image: url("../img/Musica.jpg");
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#aa {
+    margin: 0;
+    padding-top: 10vh;
+}
+
+#Barcelona {
+    color: #FCA331;
+    margin: 0;
+}
+
+article {
+    background-color: #E5E5E5;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+
+/* clases auxiliares */
+
+.padding-s {
+    margin: 0%;
+    padding: 3%;
+}
+
+.padding-m {
+    padding: 6%;
+}
+
+.back-white {
+    background-color: white;
+}
+
+@media only screen and (max-width: 700px) {
+    /*reglas*/
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    .column-nav {
+        width: 100%;
+    }
+    .column-75 {
+        margin-top: 50%;
+        margin-left: 0%;
+    }
+}
+
+
+/* .SS-Contabil-1-hex { color: #000000; }
+.SS-Contabil-2-hex { color: #14213D; }
+.SS-Contabil-3-hex { color: #FCA331; }
+.SS-Contabil-4-hex { color: #E5E5E5; }
+.SS-Contabil-5-hex { color: #FFFFFF; }
+
+.SS-Contabil-1-rgba { color: rgba(0, 0, 0, 1); }
+.SS-Contabil-2-rgba { color: rgba(20, 33, 61, 1); }
+.SS-Contabil-3-rgba { color: rgba(252, 163, 49, 1); }
+.SS-Contabil-4-rgba { color: rgba(229, 229, 229, 1); }
+.SS-Contabil-5-rgba { color: rgba(255, 255, 255, 1); }
+
+.SS-Contabil-1-hsla { color: hsla(0, 0, 0, 1); }
+.SS-Contabil-2-hsla { color: hsla(220, 50, 15, 1); }
+.SS-Contabil-3-hsla { color: hsla(33, 97, 59, 1); }
+.SS-Contabil-4-hsla { color: hsla(0, 0, 89, 1); }
+.SS-Contabil-5-hsla { color: hsla(0, 0, 100, 1); } */
